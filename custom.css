@@ -1,3 +1,5 @@
+/* Original CSS
+
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
 body {
@@ -60,7 +62,7 @@ body {
 }
 
 .right-aligned-list-value-label {
-    float: left;
+    float: right;
 }
 
 .left-label {
@@ -362,4 +364,15 @@ button[disabled], html input[disabled] {
   }
 }
 
+*/
 
+.list-group-item.mp_order_ID,
+.list-group-item.mp_currency,
+.list-group-item.mp_bill_name,
+.list-group-item.mp_bill_email,
+.list-group-item.mp_bill_mobile,
+.list-group-item.mp_bill_description,
+.list-group-item.mp_channel {
+    background-color: #72529b;
+    color: #FFFFFF;
+}
